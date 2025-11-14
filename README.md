@@ -123,7 +123,7 @@ sudo systemctl restart nginx
 Open a browser and access the public IP of the Load Balancer:
 
 ```
-http://<LoadBalancer_Public_IP>
+http://35.165.79.43/
 ```
 
 Refreshing the page multiple times displays alternating responses:
@@ -136,7 +136,7 @@ This confirms round-robin load balancing.
 Using curl:
 
 ```bash
-curl http://<LoadBalancer_Public_IP>
+curl http://35.165.79.43/
 ```
 
 ---
@@ -156,7 +156,7 @@ curl http://<LoadBalancer_Public_IP>
 **Solution:** Copied key to LB using SCP and allowed SSH from LB security group
 
 ```bash
-scp -i noor-key.pem noor-key.pem ubuntu@<LB_Public_IP>:/home/ubuntu/
+scp -i noor-key.pem noor-key.pem ubuntu@35.165.79.43:/home/ubuntu/
 chmod 400 noor-key.pem
 ```
 
