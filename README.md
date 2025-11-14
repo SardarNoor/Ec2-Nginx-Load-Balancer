@@ -202,17 +202,4 @@ Real issue was missing Apache installation.
 
 **Sardar Noor Ul Hassan**
 Cloud Intern at Cloudelligent
-DevOps | AWS | Linux | Infrastructure | NGINX
 
----
-
-## Status
-
-This project is fully implemented, tested, and completed successfully.
-
-```
-
----
-
-If you want a **PDF version of this README**, or a **shorter portfolio style version**, I can generate that too.
-```
