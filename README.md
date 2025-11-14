@@ -56,10 +56,9 @@ sudo apt update -y
 sudo apt install apache2 -y
 sudo systemctl enable apache2
 sudo systemctl start apache2
-echo "<h1>Hello from Backend Server X (SardarNoor)</h1>" | sudo tee /var/www/html/index.html
+echo "<h1>Hello from Backend Server 1 (SardarNoor)</h1>" | sudo tee /var/www/html/index.html
 ````
 
-Replace **X** with Server1 or Server2 accordingly.
 
 ### Verification from the Load Balancer Instance
 
